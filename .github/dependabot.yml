@@ -9,3 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "github.com/dependabot-fixtures/go-modules-lib"
+        versions:
+          - "1.2.5"
